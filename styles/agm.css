@@ -1,0 +1,157 @@
+/* General CSS */
+html {
+  font: 14px Rubik;
+  margin: 0px;
+  background-color: #f8f7f7; }
+
+body {
+  margin: 0; }
+
+footer {
+  padding-top: 20px; }
+
+.content {
+  width: 100%; }
+
+.mainContent {
+  padding-top: 20px; }
+
+/* Links */
+a {
+  text-decoration: none; }
+
+/* Impressionables */
+.impressionable, .impressionableBox, .sponsorButton {
+  color: black;
+  text-decoration: none;
+  box-shadow: 0px 8px 15px 4px rgba(103, 103, 103, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; }
+
+.impressionable:hover, .impressionableBox:hover, .sponsorButton:hover {
+  height: auto;
+  transform: scaleY(0.95) scaleX(0.95);
+  box-shadow: 0px 8px 15px 4px rgba(103, 103, 103, 0.05); }
+
+.impressionableBox {
+  background-color: #f0f0f0;
+  border-radius: 20px; }
+
+.sponsorButton {
+  border-radius: 50%;
+  width: 100%; }
+
+/* Width */
+.miniwidth {
+  max-width: 90%;
+  width: 250px; }
+
+.smallwidth {
+  max-width: 90%;
+  width: 650px; }
+
+.midwidth {
+  max-width: 90%;
+  width: 1000px; }
+
+.mostwidth {
+  max-width: 90%;
+  width: 1500px; }
+
+.fullwidth {
+  max-width: 100%; }
+
+/* horizontal alignment */
+.horizontalcontainer {
+  position: relative;
+  padding: 15px; }
+
+.horizontalcell {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  vertical-align: middle; }
+
+.row {
+  background-color: #eee; }
+
+/* centering */
+.centertext {
+  text-align: center; }
+
+.centerdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* Nav */
+nav {
+  padding: 15px;
+  top: 0;
+  overflow: hidden;
+  background-color: #ffffff; }
+
+nav ul {
+  padding: 0;
+  list-style-type: none; }
+
+nav ul li {
+  margin-right: 20px;
+  padding-left: 20px;
+  display: inline;
+  font-size: 1.25em; }
+
+nav a {
+  text-decoration: none;
+  color: #59253a; }
+
+nav a:hover {
+  color: #F8C340; }
+
+.navcontainer {
+  justify-content: center;
+  display: flex; }
+
+/* fonts */
+@font-face {
+  font-family: Archerus;
+  src: url(../fonts/acherus_grotesque_-_regular.otf); }
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Regular.ttf);
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Rubik;
+  src: url(../fonts/Rubik-Medium.ttf);
+  font-weight: bold;
+  font-style: normal; }
+.headerContainer {
+  position: relative;
+  margin: 0; }
+
+.headerContainer img {
+  position: relative;
+  width: 100%;
+  display: block; }
+
+.headerGeneralText, .headerText, .headerSubtext {
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+
+.headerText {
+  transform: translate(-50%, -50%); }
+
+.headerSubtext {
+  transform: translate(-50%, -7.5em); }
+
+.titleText {
+  font-size: calc((75vw - 4.5rem) / 18);
+  font-weight: 900;
+  color: #FFF; }
+
+.subtitleText {
+  font-size: 1.5em;
+  color: #FFF; }
