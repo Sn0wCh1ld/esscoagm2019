@@ -1,9 +1,12 @@
 function toggleMenu() 
 {
     var element = document.getElementById("topnav");
-    if (element.className === "navcontainer centertext") {
+    if (element.className === "navcontainer centertext") 
+    {
         element.className += " responsive";
-    } else {
+    } 
+    else 
+    {
         element.className = "navcontainer centertext";
     }
 }
