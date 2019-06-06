@@ -243,14 +243,11 @@ nav a:hover {
     {
         display: none;
     }
-}
-  
-@media screen and (max-width: 720px) 
-{
+    
     .navcontainer.responsive {position: relative;}
     .navcontainer.responsive a {
       float: none;
-      display: block;
-      text-align: left;
+      display: list-item;
+      text-align: center;
     }
 }
