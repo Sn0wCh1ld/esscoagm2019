@@ -111,6 +111,32 @@ nav a:hover {
   justify-content: center;
   display: flex; }
 
+/* rushed stuff without scss */
+.teamBlock {
+  max-width: 100%;
+  width: 350px;
+  margin: 25px;
+}
+
+.teamHead {
+  background-color: #eee; 
+  border-radius: 25px 25px 0px 0px;
+  box-shadow: 0px 8px 15px 4px rgba(103, 103, 103, 0.1);
+}
+
+.roundedImage {
+  border-radius: 50%;
+  width: 100%; 
+}
+
+.teamText {
+  color: #fff;
+  background-color: #565656;
+  border-radius: 0px 0px 25px 25px;
+  padding: 1px;
+  box-shadow: 0px 8px 15px 4px rgba(103, 103, 103, 0.1);
+}
+
 /* fonts */
 @font-face {
   font-family: Archerus;
